@@ -2,11 +2,11 @@
 
 
 
-docker build -t ohads-test-0001 .
+    docker build -t ohads-test-0001 .
 
-docker run -it ohads-test-0001 sh
-
-
+    docker run -it ohads-test-0001 sh
 
 
-/app # npm run start:prod
+
+
+    /app # npm run start:prod
