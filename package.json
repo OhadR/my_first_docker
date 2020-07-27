@@ -13,7 +13,6 @@
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
-    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage --passWithNoTests",
@@ -25,12 +24,7 @@
     "@nestjs/core": "^7.0.0",
     "@nestjs/microservices": "^7.0.5",
     "@nestjs/platform-express": "^7.0.0",
-    "@turf/area": "^6.0.1",
-    "@turf/convex": "^6.0.3",
-    "@turf/helpers": "^6.1.4",
     "@types/node": "^13.9.1",
-    "@urban-mapping/common-utils": "^0.0.108",
-    "amqp-connection-manager": "^3.2.0",
     "amqplib": "^0.5.5",
     "bluebird": "^3.7.2",
     "cesium": "^1.69.0",
@@ -56,41 +50,11 @@
     "@types/supertest": "^2.0.8",
     "@typescript-eslint/eslint-plugin": "^2.23.0",
     "@typescript-eslint/parser": "^2.23.0",
-    "husky": "^4.2.5",
-    "eslint": "^6.8.0",
-    "eslint-config-node": "^4.0.0",
-    "eslint-config-prettier": "^6.10.1",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "jest": "^25.1.0",
-    "prettier": "^1.19.1",
     "supertest": "^4.0.2",
     "ts-jest": "25.2.1",
     "ts-loader": "^6.2.1",
     "ts-node": "^8.6.2",
     "tsconfig-paths": "^3.9.0",
     "typescript": "^3.7.4"
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "ts",
-      "tss"
-    ],
-    "rootDir": "src",
-    "testRegex": ".spec.ts$",
-    "transform": {
-      "^.+\\.(t|j)s$": "ts-jest"
-    },
-    "coverageDirectory": "../coverage",
-    "testEnvironment": "node"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
   }
 }
