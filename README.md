@@ -9,4 +9,4 @@
 
 
 
-    /app # npm run start:prod
+    /app # npm run start
