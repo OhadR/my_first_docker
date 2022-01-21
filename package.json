@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@types/node": "^13.9.1",
+    "debug": "^4.3.3",
+    "kafkajs": "^1.15.0",
     "path": "^0.12.7"
   },
   "devDependencies": {

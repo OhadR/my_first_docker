@@ -35,3 +35,7 @@ to list all images:
 deleting a container by its ID:
 
     docker image rm -f ohads-test-0001
+
+
+
+add code for kafka-producer (from https://github.com/OhadR/kafka-sandbox)

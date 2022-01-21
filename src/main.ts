@@ -1,9 +1,6 @@
-async function bootstrap() {
-    // const app = await NestFactory.create(AppModule);
-    // await app.listen(3000);
-    foo();
-}
-bootstrap();
+
+foo();
+
 
 
 export async function foo() {
