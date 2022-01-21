@@ -22,7 +22,7 @@ export class KafkaProducer {
 
         const kafka = new Kafka({
             clientId: 'my-app',
-            brokers: ['localhost:9092', 'kafka2:9092']
+            brokers: ['localhost:9092', 'kafka:29092']
         });
 
         this.producer = kafka.producer()
