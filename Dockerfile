@@ -13,7 +13,7 @@ RUN apk add --no-cache git
 WORKDIR '/app'
 COPY ./package.json ./
 
-COPY ./.npmrc ./
+# COPY ./.npmrc ./  # ohads: do i need this ??
 RUN npm install --verbose
 
 COPY ./src ./src
