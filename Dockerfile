@@ -18,10 +18,8 @@ RUN npm install --verbose
 
 COPY ./src ./src
 COPY ./tsconfig.json ./
-COPY ./tsconfig.build.json ./
 
-# RUN npm run test:cov
-RUN npm run
+RUN npm run build
 
 
 #CMD ["npm", "run", "start:prod"]
