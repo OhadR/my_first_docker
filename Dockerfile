@@ -6,6 +6,7 @@ RUN npm config set https-proxy http://proxy-chain.intel.com:912
 
 ENV http_proxy http://proxy-chain.intel.com:911
 ENV https_proxy http://proxy-chain.intel.com:912
+ENV DEBUG *
 
 RUN apk update
 RUN apk add --no-cache git
