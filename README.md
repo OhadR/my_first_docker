@@ -86,3 +86,5 @@ d92121e49dcf        host                    host                local
 C:\Ohads\Dev\projects\my_first_docker>docker network connect 2f6968fe3d8d 2911b2abf8ce
 
 ```
+
+![layout](layout.JPG)
